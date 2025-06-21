@@ -17,7 +17,7 @@ pipeline {
 	stage('Build with Maven') {
 	    steps {
 		echo 'Building JAR with Maven .........'
-		sh mvn clean package'
+		sh 'mvn clean package'
 	    }
 	}
       }
