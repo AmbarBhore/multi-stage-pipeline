@@ -1,7 +1,7 @@
 pipeline {
      agent any 
      environment {
-	 IMAGE_NAME = "Rmm-agent"
+	 IMAGE_NAME = "connectwise-rmm-agent"
 	 IMAGE_TAG = "${BUILD_NUMBER}"
 	 DOCKER_REPO = "ambarbhore1234"
 	 K8S_DEPLOYMENT = "k8/s"
